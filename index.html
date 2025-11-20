@@ -8,27 +8,27 @@
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background: #f7f7f7;
-      color: #222;
+      background: #0d1a0f; /* deep forest green */
+      color: #e6d9a3; /* warm gold-tan */
       line-height: 1.6;
     }
     header {
-      background: url('hero-image.jpg') center/cover no-repeat;
-      padding: 140px 20px;
+      background: #0b140d;
+      padding: 40px 20px;
       text-align: center;
-      color: #fff;
-      background-color: #000; /* fallback */
+      color: #e6d9a3;
+      border-bottom: 2px solid #c2a95f;
     }
     header h1 {
       font-size: 3rem;
       margin: 0;
-      text-shadow: 0 2px 6px rgba(0,0,0,0.5);
+      color: #e6d9a3;
     }
     header p {
       font-size: 1.3rem;
       max-width: 600px;
       margin: 20px auto 0;
-      text-shadow: 0 2px 4px rgba(0,0,0,0.4);
+      color: #d4c792;
     }
     .container {
       max-width: 900px;
@@ -37,10 +37,16 @@
     }
     section {
       margin-bottom: 60px;
+      background: #122016;
+      padding: 25px 30px;
+      border-radius: 8px;
+      box-shadow: 0 0 12px rgba(0,0,0,0.4);
+      border: 1px solid #2d3b2e;
     }
     h2 {
       font-size: 2rem;
       margin-bottom: 10px;
+      color: #f0e4b8;
     }
     .cta {
       text-align: center;
@@ -49,26 +55,30 @@
     .cta a {
       display: inline-block;
       padding: 16px 32px;
-      background: #2b6cb0;
-      color: #fff;
+      background: #c2a95f; /* gold */
+      color: #0d1a0f;
       text-decoration: none;
       font-size: 1.2rem;
+      font-weight: bold;
       border-radius: 6px;
-      transition: background 0.3s;
+      transition: background 0.3s, transform 0.2s;
     }
     .cta a:hover {
-      background: #1f4e7a;
+      background: #e6d38a;
+      transform: translateY(-2px);
     }
     footer {
       text-align: center;
       padding: 40px 20px;
-      background: #111;
-      color: #ccc;
+      background: #0b140d;
+      color: #bfae78;
+      border-top: 2px solid #c2a95f;
     }
   </style>
 </head>
 <body>
-  <header>
+  <header style="background:none; padding:40px 20px; text-align:center; color:#fff; background-color:#000;">
+    <img src="/mnt/data/book_cover_final.jpeg" alt="The Eden Engine Cover" style="max-width:300px; width:80%; height:auto; border-radius:6px; margin-bottom:20px;" />
     <h1>The Eden Engine</h1>
     <p>A post-apocalyptic journey of faith, survival, and the machinery that could reshape humanity.</p>
   </header>
